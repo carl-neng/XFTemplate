@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="BaseUrl" value="https://hr.corarldev.com/"/>
+    <add key="OneSignalAppId" value="e9ba971c-651b-4ae4-9db4-f93c574da8a7"/>
+    <!--onesignalId for testing account-->
+    <!--<add key="OneSignalAppId" value="1f539e66-13dc-47b6-b928-974d3f2ca885"/>-->
+    <add key="AppVersionName" value="Beta 1.0.0"/>
+    <add key="VersionNumber" value="1.0.0"/>
+    <add key="iOSAppId" value="1331845663"/>
+    <add key="AndroidAppId" value="com.corarlhr.android"/>
+    <add key="iOSAppStoreUrl" value="https://itunes.apple.com/us/app/corarl-hr/id1331845663"/>
+    <add key="AndroidAppStoreUrl" value="https://play.google.com/store/apps/details?id=com.corarlhr.android"/>
+  </appSettings>
+</configuration>

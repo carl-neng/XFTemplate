@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -14,6 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using FFImageLoading.Forms;
+using FFImageLoading.Forms.Platform;
 
 namespace XfTemplate.UWP
 {
@@ -52,7 +55,14 @@ namespace XfTemplate.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.Forms.Forms.Init(e);
+                CachedImageRenderer.Init();
+                var assembliesToInclude = new List<Assembly>()
+                {
+                    typeof(CachedImage).GetTypeInfo().Assembly,
+                    typeof(CachedImageRenderer).GetTypeInfo().Assembly
+                };
+                Xamarin.Forms.Forms.Init(e, assembliesToInclude);
+               // Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddComments" xml:space="preserve">
+    <value>សរសេរមតិយោបល់...</value>
+  </data>
+  <data name="ALL" xml:space="preserve">
+    <value>ទាំងអស់</value>
+  </data>
+  <data name="AllDay" xml:space="preserve">
+    <value>ថ្ងៃទាំងអស់</value>
+  </data>
+  <data name="AllowBreakMin" xml:space="preserve">
+    <value>ចំនួននាទីសំរាក</value>
+  </data>
+  <data name="AllowNotification" xml:space="preserve">
+    <value>អនុញ្ញាតការជូនដំណឹង</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value> និង </value>
+  </data>
+  <data name="Anonymouse" xml:space="preserve">
+    <value>អនាមិក</value>
+  </data>
+  <data name="App" xml:space="preserve">
+    <value>កម្មវិធី</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>អនុម័ត</value>
+  </data>
+  <data name="ApproveLeave" xml:space="preserve">
+    <value>អនុម័តច្បាប់</value>
+  </data>
+  <data name="ApproveMission" xml:space="preserve">
+    <value>អនុម័តបេសកកម្ម</value>
+  </data>
+  <data name="ApproveRequest" xml:space="preserve">
+    <value>តើអ្នកពិតជាចង់អនុម័តលើការស្នើរសុំរបស់ {0} នេះពិតមែនឬ?</value>
+  </data>
+  <data name="ApproverInformation" xml:space="preserve">
+    <value>អនុម័តដោយ</value>
+  </data>
+  <data name="ApproverName" xml:space="preserve">
+    <value>ឈ្មោះអ្នកអនុម័ត</value>
+  </data>
+  <data name="ApproverTime" xml:space="preserve">
+    <value>អនុម័តលើការងារថែមម៉ោង</value>
+  </data>
+  <data name="AppVersion" xml:space="preserve">
+    <value>ជំនាន់កម្មវិធី {0}</value>
+  </data>
+  <data name="Apr" xml:space="preserve">
+    <value>មេសា</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>បន្ថែមឯកសារភ្ជាប់</value>
+  </data>
+  <data name="Attendance" xml:space="preserve">
+    <value>វត្តមាន</value>
+  </data>
+  <data name="Aug" xml:space="preserve">
+    <value>សីហា</value>
+  </data>
+  <data name="BrowseFile" xml:space="preserve">
+    <value>រកមើលឯកសារ</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>បោះបង់</value>
+  </data>
+  <data name="CancelRequest" xml:space="preserve">
+    <value>ត្រលប់ក្រោយ</value>
+  </data>
+  <data name="CancelVoidLeave" xml:space="preserve">
+    <value>ត្រលប់ក្រោយ</value>
+  </data>
+  <data name="CDate" xml:space="preserve">
+    <value>ថ្ងៃខែប្តឹង</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>បោះបង់</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>អត្ថាធិប្បាយ</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>ឈ្មោះក្រុមហ៊ុន</value>
+  </data>
+  <data name="Complaint" xml:space="preserve">
+    <value>ពាក្យបណ្តឹង</value>
+  </data>
+  <data name="ComplaintDetail" xml:space="preserve">
+    <value>បណ្តឹងលំអិត</value>
+  </data>
+  <data name="ComplaintSubject" xml:space="preserve">
+    <value>កម្មវត្ថុ</value>
+  </data>
+  <data name="ComplaintTo" xml:space="preserve">
+    <value>ប្តឹងទៅកាន់</value>
+  </data>
+  <data name="CreateCommentError" xml:space="preserve">
+    <value>អ្នកមិនអាចផ្តល់ការអត្ថាធិប្បាយបានទេ</value>
+  </data>
+  <data name="CreateComplaint" xml:space="preserve">
+    <value>អ្នកបានបង្កើតពាក្យបណ្តឹងដោយជោគជ័យ។</value>
+  </data>
+  <data name="CreateComplaintError" xml:space="preserve">
+    <value>អ្នកមិនអាចបង្កើតពាក្យបណ្តឹងបានទេ។</value>
+  </data>
+  <data name="CreateComplaintMessage" xml:space="preserve">
+    <value>អ្នកបានបង្កើតពាក្យបណ្តឹងដោយជោគជ័យ។</value>
+  </data>
+  <data name="CreateMission" xml:space="preserve">
+    <value>បង្កើតបេសកកម្ម</value>
+  </data>
+  <data name="CreateOvertime" xml:space="preserve">
+    <value>បង្កើតម៉ោងបន្ថែម</value>
+  </data>
+  <data name="CreateOverTimeSuccess" xml:space="preserve">
+    <value>អ្នកបានបង្កើតការងារម៉ោងបន្ថែមបានដោយជោគជ័យ​។</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>ទំព័រដើម</value>
+  </data>
+  <data name="DateFilter" xml:space="preserve">
+    <value>ថ្ងៃខែ</value>
+  </data>
+  <data name="day" xml:space="preserve">
+    <value>ថ្ងៃ</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>ថ្ងៃ</value>
+  </data>
+  <data name="Dec" xml:space="preserve">
+    <value>ធ្នូ</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>នាយកដ្ឋាន</value>
+  </data>
+  <data name="DepartmentList" xml:space="preserve">
+    <value>បញ្ជីរឈ្មោះនាយកដ្ឋាន</value>
+  </data>
+  <data name="DepartmentListName" xml:space="preserve">
+    <value>សូមធ្វើការជ្រើសរើសឈ្មោះនាយកដ្ឋាននៅទីនេះ</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>ផ្នែក</value>
+  </data>
+  <data name="Designations" xml:space="preserve">
+    <value>មុខតំណែង</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>រួចរាល់</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>អ៊ីមែល</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>បុគ្គលិក</value>
+  </data>
+  <data name="EmployeeList" xml:space="preserve">
+    <value>បញ្ជីរឈ្មោះបុគ្គលិក</value>
+  </data>
+  <data name="EmployeeListName" xml:space="preserve">
+    <value>សូមធ្វើការជ្រើសរើសឈ្មោះបុគ្គលិកនៅទីនេះ</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>ឈ្មោះ​បុគ្គលិក</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>ថ្ងៃបញ្ចប់</value>
+  </data>
+  <data name="Feb" xml:space="preserve">
+    <value>កុម្ភះ</value>
+  </data>
+  <data name="FILLED" xml:space="preserve">
+    <value>ដាកពាក្យ</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>កំណត់ការស្វែងរក</value>
+  </data>
+  <data name="ForgotPassord" xml:space="preserve">
+    <value>តើអ្នកភ្លេចលេខសំងាត់ឫ?</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>ភ្លេចលេខសំងាត់?</value>
+  </data>
+  <data name="Fri" xml:space="preserve">
+    <value>ថ្ងៃសុក្រ</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>ពីថ្ងៃទី</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>ជំនួយ</value>
+  </data>
+  <data name="Here" xml:space="preserve">
+    <value>ទីនេះ</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>ម៉ោង</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ម៉ោង</value>
+  </data>
+  <data name="Jan" xml:space="preserve">
+    <value>មករា</value>
+  </data>
+  <data name="Jul" xml:space="preserve">
+    <value>កក្កដា</value>
+  </data>
+  <data name="Jun" xml:space="preserve">
+    <value>មិថុនា</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>ភាសា</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>ច្បាប់ឈប់សំរាក</value>
+  </data>
+  <data name="LeaveAllowance" xml:space="preserve">
+    <value>ច្បាប់សរុប</value>
+  </data>
+  <data name="LeaveApprove" xml:space="preserve">
+    <value>អនុម័តច្បាប់ឈប់សំរាក</value>
+  </data>
+  <data name="LeaveAvailble" xml:space="preserve">
+    <value>ច្បាប់នៅសល់</value>
+  </data>
+  <data name="LeaveCreateNew" xml:space="preserve">
+    <value>បង្កើតច្បាប់ឈប់សំរាកថ្មី</value>
+  </data>
+  <data name="LeaveDate" xml:space="preserve">
+    <value>ថ្ងៃឈប់សម្រាក</value>
+  </data>
+  <data name="LeaveDetail" xml:space="preserve">
+    <value>ច្បាប់ឈប់សំរាកលំអិត</value>
+  </data>
+  <data name="LeavePeriod" xml:space="preserve">
+    <value>រយៈពេលច្បាប់</value>
+  </data>
+  <data name="LeaveType" xml:space="preserve">
+    <value>ប្រភេទច្បាប់</value>
+  </data>
+  <data name="LeaveUse" xml:space="preserve">
+    <value>ច្បាប់ប្រើរួច</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>កំពុងដំណើរការ...</value>
+  </data>
+  <data name="LoadingData" xml:space="preserve">
+    <value>កំពុងដំណើរការ...</value>
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>មើលបន្ថែម</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ចូលកម្មវិធី</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>ចាកចេញ</value>
+  </data>
+  <data name="Mar" xml:space="preserve">
+    <value>មីនា</value>
+  </data>
+  <data name="MaxResultCount" xml:space="preserve">
+    <value>លទ្ធផលច្រើនបំផុត</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>ឧសភា</value>
+  </data>
+  <data name="MessageNotification" xml:space="preserve">
+    <value>សារជូនដំណឹង</value>
+  </data>
+  <data name="MessageNotSuccess" xml:space="preserve">
+    <value>អ្នកត្រូវបានបរាជ័យក្នុងការបង្កើតនេះ។ សូម​ព្យាយាម​ម្ដងទៀត។</value>
+  </data>
+  <data name="MessageSuccess" xml:space="preserve">
+    <value>អ្នកបានបង្កើតកំនត់ត្រាថ្មីដោយជោគជ័គ។</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>0 នាទី</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>នាទី</value>
+  </data>
+  <data name="Mission" xml:space="preserve">
+    <value>បេសកកម្ម</value>
+  </data>
+  <data name="MissionApprove" xml:space="preserve">
+    <value>អនុម័តបេសកកម្ម</value>
+  </data>
+  <data name="MissionDate" xml:space="preserve">
+    <value>ថ្ងៃខែស្នើសុំ</value>
+  </data>
+  <data name="MissionDetail" xml:space="preserve">
+    <value>បេសកកម្មលំអិត</value>
+  </data>
+  <data name="MissionDetailTitle" xml:space="preserve">
+    <value>បេសកកម្មលំអិត</value>
+  </data>
+  <data name="MissionSubject" xml:space="preserve">
+    <value>ប្រធានបទបេសកកម្ម</value>
+  </data>
+  <data name="MissionType" xml:space="preserve">
+    <value>​ប្រភេទបេសកកម្ម</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>ថៃ្ងច័ន្ទ</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>ឈ្មោះ</value>
+  </data>
+  <data name="NetworkSetting" xml:space="preserve">
+    <value>កំណត់</value>
+  </data>
+  <data name="NoApprove" xml:space="preserve">
+    <value>គ្មានការអនុម័ត</value>
+  </data>
+  <data name="NoComment" xml:space="preserve">
+    <value>គ្មានអត្ថាធិប្បាយ</value>
+  </data>
+  <data name="Noification" xml:space="preserve">
+    <value>ការជូនដំណឹង</value>
+  </data>
+  <data name="NoInternetMessage" xml:space="preserve">
+    <value>ការស្នើសុំអោយមានប្រព័ន្ធអ៊ីនធើណិត ដើម្បីចូលទៅប្រើប្រាស់ប្រព័ន្ធគ្រប់គ្រងមួយនេះ ។ ដូច្នេះសូមអ្នកចូលទៅកាន់ការកំណត់នៅលើទូរសព្ទ របស់អ្នក និងសូមព្យាយាមម្តងទៀត សូមអរគុណ....</value>
+  </data>
+  <data name="NoInternetTitle" xml:space="preserve">
+    <value>គ្មានអ៊ីនធើណិត</value>
+  </data>
+  <data name="Nov" xml:space="preserve">
+    <value>វិច្ឆិកា</value>
+  </data>
+  <data name="NoWorries" xml:space="preserve">
+    <value>កុំបារម្ភ! សូមចុច</value>
+  </data>
+  <data name="Oct" xml:space="preserve">
+    <value>តុលា</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>យល់ព្រម</value>
+  </data>
+  <data name="Oop" xml:space="preserve">
+    <value>សូមទោស!</value>
+  </data>
+  <data name="OtherEmployeeOnMission" xml:space="preserve">
+    <value>បុគ្គលិកផ្សេងទៀតនៅលើបេសកកម្មនេះ</value>
+  </data>
+  <data name="OtherEmployeesOnMission" xml:space="preserve">
+    <value>បេសកកម្មបុគ្គលិកផ្សេងទៀត</value>
+  </data>
+  <data name="Overtime" xml:space="preserve">
+    <value>ការងារថែមម៉ោង</value>
+  </data>
+  <data name="OvertimeApprove" xml:space="preserve">
+    <value>អនុម័តការងារថែមម៉ោង</value>
+  </data>
+  <data name="OvertimeDate" xml:space="preserve">
+    <value>កាលបរិច្ឆេទបន្ថែមម៉ោង</value>
+  </data>
+  <data name="OvertimeDetail" xml:space="preserve">
+    <value>ការងារថែមម៉ោងលំអិត</value>
+  </data>
+  <data name="OvertimePeriod" xml:space="preserve">
+    <value>កុំឡុងពេលនៃការងារថែមម៉ោង</value>
+  </data>
+  <data name="OvertimePeriodHolder" xml:space="preserve">
+    <value>០ ម៉ោង</value>
+  </data>
+  <data name="OvertimeType" xml:space="preserve">
+    <value>ប្រភេទការងារថែមម៉ោង</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>លេខសំងាត់</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>មុខតំណែង</value>
+  </data>
+  <data name="ReadAll" xml:space="preserve">
+    <value>អានទាំងអស់</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>មូលហេតុ</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>បដិសេធ</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>ច្រានចោល</value>
+  </data>
+  <data name="RejectRequest" xml:space="preserve">
+    <value>តើអ្នកពិតជាចង់បដិសេធលើការស្នើរសុំរបស់ {0} នេះពិតមែនឬ?</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>សំគាល់</value>
+  </data>
+  <data name="RequestedOn" xml:space="preserve">
+    <value>បានស្នើរសុំ</value>
+  </data>
+  <data name="RequireField" xml:space="preserve">
+    <value>សូមបញ្ចូលការស្នើសុំ </value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>កំណត់ពាក្យសម្ងាត់</value>
+  </data>
+  <data name="ResolutionDetail" xml:space="preserve">
+    <value>ដំណោះស្រាយលំអិត</value>
+  </data>
+  <data name="ResolveComplaint" xml:space="preserve">
+    <value>ដោះស្រាយ ពាក្យបណ្តឹង</value>
+  </data>
+  <data name="ResolveComplaintMessageError" xml:space="preserve">
+    <value>អ្នកមិនអាចដោះស្រាយបញ្ហានេះបានទេ។</value>
+  </data>
+  <data name="ResolveComplaintMessageSuccess" xml:space="preserve">
+    <value>អ្នកបានដោះស្រាយបញ្ហាដោយជោគជ័យ។</value>
+  </data>
+  <data name="RESOLVED" xml:space="preserve">
+    <value>ដោះស្រាយ</value>
+  </data>
+  <data name="ResolveDate" xml:space="preserve">
+    <value>ថ្ងៃខែដោះស្រាយ</value>
+  </data>
+  <data name="ResolvedComplaint" xml:space="preserve">
+    <value>សូមបំពេញ ដំណោះស្រាយលំអិត។</value>
+  </data>
+  <data name="ResultNotFound" xml:space="preserve">
+    <value>ស្វែងរកអត់មាន</value>
+  </data>
+  <data name="Sat" xml:space="preserve">
+    <value>ថ្ងៃសៅរ៍</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>រក្សាទុក</value>
+  </data>
+  <data name="Schedules" xml:space="preserve">
+    <value>កាលវិភាគ</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>ស្វែងរក បុគ្គលិក...</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>ស្វែងរកតាម :</value>
+  </data>
+  <data name="SearchDepartment" xml:space="preserve">
+    <value>ស្វែងរក នាយកដ្ឋាន...</value>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>ស្វែងរក</value>
+  </data>
+  <data name="Sep" xml:space="preserve">
+    <value>កញ្ញា</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>ការកំណត់</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>ទីតាំង</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>គួរអោយសោកស្តាយ</value>
+  </data>
+  <data name="SoundNotification" xml:space="preserve">
+    <value>ការជូនដំណឹងសំឡេង</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>ថ្ងៃ​ចាប់ផ្តើម</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>លក្ខណៈ</value>
+  </data>
+  <data name="StatusApproved" xml:space="preserve">
+    <value>អនុម័ត</value>
+  </data>
+  <data name="StatusPending" xml:space="preserve">
+    <value>ពុំទាន់សម្រេច</value>
+  </data>
+  <data name="StatusRecord" xml:space="preserve">
+    <value>កត់ត្រា</value>
+  </data>
+  <data name="StatusRejected" xml:space="preserve">
+    <value>បដិសេធ</value>
+  </data>
+  <data name="StatusVoided" xml:space="preserve">
+    <value>ទុកជាមោឃៈ</value>
+  </data>
+  <data name="Subdomain" xml:space="preserve">
+    <value>ឈ្មោះក្រុមហ៊ុន</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>បញ្ជូន</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>អបអរសាទរ</value>
+  </data>
+  <data name="Suggestion" xml:space="preserve">
+    <value>យោបល់</value>
+  </data>
+  <data name="Sun" xml:space="preserve">
+    <value>ថ្ងៃអាទិត្យ</value>
+  </data>
+  <data name="ThisMonth" xml:space="preserve">
+    <value>ខែនេះ</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>ថ្ងៃព្រហស្បតិ៍</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>ពេល​វេលា</value>
+  </data>
+  <data name="TimeIn" xml:space="preserve">
+    <value>ម៉ោងចូល</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>ម៉ោងចេញ</value>
+  </data>
+  <data name="TitleComplaint" xml:space="preserve">
+    <value>បង្កើតពាក្យបណ្តឹង</value>
+  </data>
+  <data name="TitleDate" xml:space="preserve">
+    <value>កាលបរិច្ឆេទ</value>
+  </data>
+  <data name="TitleFilled" xml:space="preserve">
+    <value>ការដាកពាក្យ</value>
+  </data>
+  <data name="TitleResolved" xml:space="preserve">
+    <value>ការដោះស្រាយ</value>
+  </data>
+  <data name="TitleSuccess" xml:space="preserve">
+    <value>អបអរសាទរ</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>ដល់ថ្ងៃទី</value>
+  </data>
+  <data name="TodayTitle" xml:space="preserve">
+    <value>ថ្ងៃនេះ</value>
+  </data>
+  <data name="ToReset" xml:space="preserve">
+    <value>ដើម្បីកែប្រែលេខសំងាត់ឡើងវិញ។</value>
+  </data>
+  <data name="TotalDays" xml:space="preserve">
+    <value>ចំនួនថ្ងៃសរុប</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>ថ្ងៃអង្គារ</value>
+  </data>
+  <data name="UpComing" xml:space="preserve">
+    <value>នាពេលខាងមុខ</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>អ្នកប្រើប្រាស់</value>
+  </data>
+  <data name="UsernameOrEmail" xml:space="preserve">
+    <value>ឈ្មោះប្រើប្រាស់ ឫ អ៊ីម៉ែល</value>
+  </data>
+  <data name="VibrateNotification" xml:space="preserve">
+    <value>ការជូនដំណឹងរង្គើរ</value>
+  </data>
+  <data name="ViewComplaint" xml:space="preserve">
+    <value>ពាក្យបណ្តឹងលំអិត</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>មើលអត្ថាធិប្បាយបន្ថែម</value>
+  </data>
+  <data name="Void" xml:space="preserve">
+    <value>ទុកជាមោឃៈ</value>
+  </data>
+  <data name="VoidLeave" xml:space="preserve">
+    <value>ទុកជាមោឃៈ</value>
+  </data>
+  <data name="VoidLeaveMessage" xml:space="preserve">
+    <value>តើអ្នកពិតជាចង់ទុកច្បាប់ឈប់សំរាក៖ {0} នេះជាមោឃៈមែនឬ?</value>
+  </data>
+  <data name="VoidMission" xml:space="preserve">
+    <value>ទុកជាមោឃៈ</value>
+  </data>
+  <data name="VoidMissionMessage" xml:space="preserve">
+    <value>តើអ្នកពិតជាចង់ទុកបេសកកម្ម៖{0} នេះជាមោឃៈមែនឬ?</value>
+  </data>
+  <data name="VoidOvertime" xml:space="preserve">
+    <value>ទុកជាមោឃៈ</value>
+  </data>
+  <data name="VoidOvertimeMessage" xml:space="preserve">
+    <value>តើអ្នកពិតជាចង់ទុកការងារថែមម៉ោង៖{0} នេះជាមោឃៈមែនឬ?</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>ថ្ងៃពុធ</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>ស្វាគមន៍</value>
+  </data>
+  <data name="YouCan" xml:space="preserve">
+    <value>អ្នក​អាច :</value>
+  </data>
+  <data name="YouInputEmpty" xml:space="preserve">
+    <value>សូមធ្វើការបញ្ចូល ឈ្មោះក្រុមហ៊ុន ឈ្មោះអ្នកប្រើប្រាស់ ឬ អ៊ីម៉ែល និងលេខសម្ងាត់ និងសូមព្យាយាមម្តងទៀត។</value>
+  </data>
+  <data name="YourEnterIsWrong" xml:space="preserve">
+    <value>សូមអភ័យទោស ការបញ្ចូលរបស់អ្នកមិនទាន់បានត្រឹមត្រូវទេ សូមព្យាយាមម្តងទៀត</value>
+  </data>
+  <data name="TimeRequest" xml:space="preserve">
+    <value>ស្នើរសុំកែរប្រែ ម៉ោងចេញចូល</value>
+  </data>
+  <data name="CreateTimeRequest" xml:space="preserve">
+    <value>បង្កើរការស្នើរសុំកែរប្រែម៉ោងចេញចូល</value>
+  </data>
+  <data name="BrowseAttendanceLog" xml:space="preserve">
+    <value>រកមើលកំណត់ហេតុ</value>
+  </data>
+  <data name="TimeRequestInformation" xml:space="preserve">
+    <value>ព័តមានស្នើរសុំកែរប្រែម៉ោងចេញចូល</value>
+  </data>
+  <data name="Payslip" xml:space="preserve">
+    <value>បង្កាន់ដៃប្រាក់បៀវត្ស</value>
+  </data>
+  <data name="AwaitConfirmation" xml:space="preserve">
+    <value>រង់ចាំការបញ្ជាក់</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>ព្រាង</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>បានអនុម័តរួច</value>
+  </data>
+  <data name="AwaitApproval" xml:space="preserve">
+    <value>រង់ចាំការអនុម័ត</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>បានបញ្ជាក់រួច</value>
+  </data>
+  <data name="NeedAdjustment" xml:space="preserve">
+    <value>ត្រូវការកែតម្រូវ</value>
+  </data>
+  <data name="StatusDone" xml:space="preserve">
+    <value>បញ្ចប់</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>ជ្រើសឆ្នាំ</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>បញ្ជាក់</value>
+  </data>
+  <data name="PayslipDetail" xml:space="preserve">
+    <value>បង្កាន់ដៃប្រាក់បៀវត្សលំអិត</value>
+  </data>
+  <data name="RequestAdjustment" xml:space="preserve">
+    <value>ស្នើសុំការកែតម្រូវ</value>
+  </data>
+  <data name="TimeRequestDetails" xml:space="preserve">
+    <value>ការស្នើរសុំកែរប្រែម៉ោងចេញចូលលំអិត</value>
+  </data>
+  <data name="RecordedOn" xml:space="preserve">
+    <value>បានកត់ត្រាទុក</value>
+  </data>
+  <data name="AttendanceStatus" xml:space="preserve">
+    <value>ស្ថានភាពវត្តមាន</value>
+  </data>
+  <data name="IsLate" xml:space="preserve">
+    <value>មកយឺត</value>
+  </data>
+  <data name="IsLeaveEarly" xml:space="preserve">
+    <value>ចេញមុនម៉ោង</value>
+  </data>
+  <data name="IsLossHours" xml:space="preserve">
+    <value>ធ្វើការអត់គ្រប់ម៉ោង</value>
+  </data>
+  <data name="IsMissClock" xml:space="preserve">
+    <value>ភ្លេចស្កេន</value>
+  </data>
+  <data name="IsOnLeave" xml:space="preserve">
+    <value>ដាក់ច្បាប់ឈប់សំរាក</value>
+  </data>
+  <data name="IsOnMission" xml:space="preserve">
+    <value>ចុះបេសកម្ម</value>
+  </data>
+  <data name="IsOnOvertime" xml:space="preserve">
+    <value>ធ្វើការងារថែមម៉ោង</value>
+  </data>
+  <data name="IsOnSchedule" xml:space="preserve">
+    <value>មកធ្វើការ</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>ជ្រើសរើស</value>
+  </data>
+  <data name="AM" xml:space="preserve">
+    <value>ព្រឹក</value>
+  </data>
+  <data name="PM" xml:space="preserve">
+    <value>ល្ងាច</value>
+  </data>
+  <data name="RemarkClockIn" xml:space="preserve">
+    <value>សម្គាល់ម៉ោងចូល : </value>
+  </data>
+  <data name="RemarkClockOut" xml:space="preserve">
+    <value>សម្គាល់ម៉ោងចេញ : </value>
+  </data>
+  <data name="NewTime" xml:space="preserve">
+    <value>ម៉ោងស្នើសុំ</value>
+  </data>
+  <data name="OldTime" xml:space="preserve">
+    <value>ម៉ោងចាស់</value>
+  </data>
+  <data name="TimeClock" xml:space="preserve">
+    <value>ស្កេនម៉ោងចេញចូល</value>
+  </data>
+  <data name="ClockIn" xml:space="preserve">
+    <value>ម៉ោងចូល</value>
+  </data>
+  <data name="ClockOut" xml:space="preserve">
+    <value>ម៉ោងចេញ</value>
+  </data>
+  <data name="Ignored" xml:space="preserve">
+    <value>មិនអើពើ</value>
+  </data>
+  <data name="ActualRate" xml:space="preserve">
+    <value>ប្រាក់បៀវត្សជាក់ស្តែង</value>
+  </data>
+  <data name="Amounts" xml:space="preserve">
+    <value>ចំនួន</value>
+  </data>
+  <data name="BasicRate" xml:space="preserve">
+    <value>ប្រាក់បៀវត្សគោល</value>
+  </data>
+  <data name="Deductions" xml:space="preserve">
+    <value>ប្រាក់កាត់បន្ថយ</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>នាយកដ្ឋាន</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>តួនាទី</value>
+  </data>
+  <data name="Earnings" xml:space="preserve">
+    <value>ប្រាក់ចំណូល</value>
+  </data>
+  <data name="EmployeeCode" xml:space="preserve">
+    <value>លេខកូដ បុគ្គលិក</value>
+  </data>
+  <data name="EmployeeInformation" xml:space="preserve">
+    <value>ព័ត៌មានបុគ្គលិក</value>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>រូបមន្ត</value>
+  </data>
+  <data name="FringeBenefitExpense" xml:space="preserve">
+    <value>ចំណាយពន្ធលើអត្ថប្រយោជន៍បន្ថែម</value>
+  </data>
+  <data name="JoiningDate" xml:space="preserve">
+    <value>ថ្ងៃចូលបម្រើការងារ</value>
+  </data>
+  <data name="NetPay" xml:space="preserve">
+    <value>ប្រាក់ខែត្រូវទូទាត់</value>
+  </data>
+  <data name="PayRollPeriod" xml:space="preserve">
+    <value>កំឡុងពេលប្រាក់បៀវត្ស</value>
+  </data>
+  <data name="TaxExpense" xml:space="preserve">
+    <value>ពន្ធលើប្រាក់បៀវត្ស</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>សរុប ​: {0}</value>
+  </data>
+  <data name="TotalAmount" xml:space="preserve">
+    <value>ចំនួន​សរុប :</value>
+  </data>
+  <data name="TotalTitle" xml:space="preserve">
+    <value>សរុប ​: </value>
+  </data>
+  <data name="Late" xml:space="preserve">
+    <value>មកយឺត</value>
+  </data>
+  <data name="LeaveEarly" xml:space="preserve">
+    <value>ចាកចេញមុនម៉ោង</value>
+  </data>
+  <data name="SearchPlacholder" xml:space="preserve">
+    <value>ស្វែងរក...</value>
+  </data>
+  <data name="RecordedDate" xml:space="preserve">
+    <value>បានកត់ត្រាទុក</value>
+  </data>
+  <data name="RequestedDate" xml:space="preserve">
+    <value>បានស្នើរសុំ</value>
+  </data>
+  <data name="LeaveEntitlement" xml:space="preserve">
+    <value>ច្បាប់សរុប</value>
+  </data>
+  <data name="NoInternetConnection" xml:space="preserve">
+    <value>គ្មានការតភ្ជាប់អ៊ីនធឺណិត</value>
+  </data>
+  <data name="NoInternetConnectionMessage" xml:space="preserve">
+    <value>កម្មវិធីនេះតម្រូវឱ្យអ៊ិនធឺណិតដំណើរការ។ សូមពិនិត្យការភ្ជាប់របស់អ្នកហើយព្យាយាមម្តងទៀត។</value>
+  </data>
+  <data name="AddAccount" xml:space="preserve">
+    <value>បន្ថែមគណនី</value>
+  </data>
+  <data name="ResolutionDetails" xml:space="preserve">
+    <value>Resolution Details</value>
+  </data>
+  <data name="ResolvedDate" xml:space="preserve">
+    <value>Resolved Date</value>
+  </data>
+  <data name="YourEnterIsWrong1" xml:space="preserve">
+    <value>Your enter is wrong</value>
+  </data>
+  <data name="VariableForLeaveInDay" xml:space="preserve">
+    <value>Variable សំរាប់គណនាចំនួនច្បាប់ជាថ្ងៃ</value>
+  </data>
+  <data name="VariableForLeaveInNumber" xml:space="preserve">
+    <value>Variable សំរាប់គណនាចំនួនច្បាប់ជាចំនួនរាប់</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>បោះបង់</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>យល់ព្រម</value>
+  </data>
+  <data name="VoidTimeRequest" xml:space="preserve">
+    <value>ទុកជាមោឃៈ</value>
+  </data>
+  <data name="AllowMinuteBreak" xml:space="preserve">
+    <value>ចំនួននាទីឈប់សម្រាក</value>
+  </data>
+  <data name="FullDay" xml:space="preserve">
+    <value>FULL DAY</value>
+  </data>
+  <data name="HalfDay" xml:space="preserve">
+    <value>HALF DAY</value>
+  </data>
+  <data name="LeaveFor" xml:space="preserve">
+    <value>ច្បាប់ឈប់សំរាក</value>
+  </data>
+  <data name="LeaveTime" xml:space="preserve">
+    <value>ម៉ោងឈប់សម្រាក</value>
+  </data>
+  <data name="PeriodType" xml:space="preserve">
+    <value>ប្រភេទពេលវេលា</value>
+  </data>
+  <data name="FromTime" xml:space="preserve">
+    <value>ពីម៉ោង</value>
+  </data>
+  <data name="ToTime" xml:space="preserve">
+    <value>ដល់ម៉ោង</value>
+  </data>
+  <data name="LabelLeavePeriod" xml:space="preserve">
+    <value>រយៈពេលច្បាប់</value>
+  </data>
+  <data name="ContacUs" xml:space="preserve">
+    <value>ទាក់ទងយើងខ្ញុំ</value>
+  </data>
+  <data name="RateUs" xml:space="preserve">
+    <value>វាយតម្លៃយើងខ្ញុំ</value>
+  </data>
+  <data name="MessageFromTimeToTime" xml:space="preserve">
+    <value>សូមជ្រើសរើសរយៈពេលខុសគ្នារវាងពេលវេលាចាប់ផ្តើមនិងពេលវេលាបញ្ចប់។</value>
+  </data>
+  <data name="UserAccount" xml:space="preserve">
+    <value>គណនី​អ្នកប្រើប្រាស់</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>កែប្រែពាក្យសម្ងាត់</value>
+  </data>
+  <data name="LoginAttempts" xml:space="preserve">
+    <value>ប្រវត្តិចូលប្រើប្រាស់</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>ពត៌មានរបស់ខ្ញុំ</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>សង្ខេប</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>ព័ត៌មានផ្ទាល់ខ្លួន</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>កែប្រែ</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>អ៊ីមែល</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ឈ្មោះ​អ្នកប្រើប្រាស់</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>លេខសំងាត់បច្ចុប្បន្ន</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>លេខសំងាត់ថ្មី</value>
+  </data>
+  <data name="NewPasswordRepeat" xml:space="preserve">
+    <value>លេខសំងាត់ថ្មី (ម្តងទៀត)</value>
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>ប្រភេទគណនី</value>
+  </data>
+  <data name="Annually" xml:space="preserve">
+    <value>គិតជារៀងរាល់ឆ្នាំ</value>
+  </data>
+  <data name="ContractType" xml:space="preserve">
+    <value>ប្រភេទ កុងត្រា</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>គិតជាថ្ងៃ</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>ប្រភេទ បុគ្គលិក</value>
+  </data>
+  <data name="EmploymentStatus" xml:space="preserve">
+    <value>ស្ថានភាពការងារ</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>នាមខ្លួន</value>
+  </data>
+  <data name="Hourly" xml:space="preserve">
+    <value>គិតជាម៉ោង</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>នាមត្រកូល</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>គិតជាខែ</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>ប្រាក់បៀវត្ស</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>ក្រុមអ្នកប្រើប្រាស់</value>
+  </data>
+  <data name="Supervisor" xml:space="preserve">
+    <value>អ្នកគ្រប់គ្រង</value>
+  </data>
+  <data name="UseEmail" xml:space="preserve">
+    <value>ប្រើប្រាស់អ៊ីមែល</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>នៅប្រើប្រាស់</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>ឈប់ដំណើរការ</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>រហូត</value>
+  </data>
+  <data name="JobStatus" xml:space="preserve">
+    <value>ស្ថានភាពការងារ</value>
+  </data>
+  <data name="BlackList" xml:space="preserve">
+    <value>ចុះបញ្ជីខ្មៅ</value>
+  </data>
+  <data name="Employed" xml:space="preserve">
+    <value>នៅធ្វើការ</value>
+  </data>
+  <data name="Exited" xml:space="preserve">
+    <value>ឈប់ធ្វើការ</value>
+  </data>
+  <data name="NotEmployedYet" xml:space="preserve">
+    <value>អត់ទាន់ចូលធ្វើការ</value>
+  </data>
+</root>

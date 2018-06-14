@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:entryControl="clr-namespace:XfTemplate.Controls.EntryControl;assembly=XfTemplate"
+             xmlns:forms1="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:tr="clr-namespace:XfTemplate.Resx.Extensions;assembly=XfTemplate"
+             x:Class="XfTemplate.Views.Login.LoginPage" BackgroundColor="#FCFCFC">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="LineColor" TargetType="Grid">
+                <Setter Property="BackgroundColor" Value="#D6D6D6"></Setter>
+            </Style>
+            <forms1:SvgImageSourceConverter x:Key="SvgImageSourceConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition Width="100*"/>
+                    <ColumnDefinition Width="15"/>
+                </Grid.ColumnDefinitions>
+                <Grid Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="100*"/>
+                        <RowDefinition Height="15"/>
+                    </Grid.RowDefinitions>
+                    <Grid Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="45*"/>
+                            <RowDefinition Height="85*"/>
+                            <RowDefinition Height="25*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Row="0" VerticalOptions="CenterAndExpand">
+                            <Image Source="{Binding LogoIco}" WidthRequest="250" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+
+                        <Grid Row="1" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="1"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="1"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="1"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="30*"/>
+                            </Grid.RowDefinitions>
+                            <Grid Row="0" BackgroundColor="Transparent">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="35"/>
+                                    <ColumnDefinition Width="100*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                                    <forms:CachedImage WidthRequest="20" HeightRequest="20"
+                                             Source="{Binding DomainIco, Converter={StaticResource SvgImageSourceConverter}}">
+                                    </forms:CachedImage>
+                                </Grid>
+                                <Grid Column="1" VerticalOptions="EndAndExpand">
+                                    <entryControl:LoginEntry IsEnabled="{Binding IsBtnEnable}" 
+                                            Text="{Binding Domain}" HeightRequest="35" 
+                                            Placeholder="{tr:Translate Text=Subdomain}" 
+                                            FontSize="16"/>
+                                </Grid>
+                            </Grid>
+                            <Grid Row="1" Style="{StaticResource LineColor}"/>
+                            <Grid Row="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="35"/>
+                                    <ColumnDefinition Width="100*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                                    <forms:CachedImage 
+                                            WidthRequest="20" HeightRequest="20"
+                                            Source="{Binding UserNameIco, Converter={StaticResource SvgImageSourceConverter}}">
+                                    </forms:CachedImage>
+                                </Grid>
+                                <Grid Column="1" VerticalOptions="EndAndExpand">
+                                    <entryControl:LoginEntry IsEnabled="{Binding IsBtnEnable}" Text="{Binding UserName}" HeightRequest="35" Placeholder="{tr:Translate Text=UsernameOrEmail}" FontSize="16"/>
+                                </Grid>
+                            </Grid>
+                            <Grid Row="3" Style="{StaticResource LineColor}"/>
+                            <Grid Row="4" BackgroundColor="Transparent">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="35"/>
+                                    <ColumnDefinition Width="100*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                                    <forms:CachedImage WidthRequest="20" HeightRequest="20"
+                                                           Source="{Binding PasswordIco, Converter={StaticResource SvgImageSourceConverter}}">
+                                    </forms:CachedImage>
+                                </Grid>
+                                <Grid Column="1">
+                                    <entryControl:LoginEntry IsEnabled="{Binding IsBtnEnable}" Text="{Binding Password}" Placeholder="{tr:Translate Text=Password}" HeightRequest="35" VerticalOptions="CenterAndExpand" IsPassword="True" FontSize="16"/>
+                                </Grid>
+                            </Grid>
+                            <Grid Row="5" Style="{StaticResource LineColor}"/>
+                            <Grid Row="7" BackgroundColor="Transparent">
+                                <Button Text="{tr:Translate Text=Login}" IsEnabled="{Binding IsBtnEnable}" BackgroundColor="{StaticResource Primary}" Command="{Binding LoginCommand}"></Button>
+                            </Grid>
+
+                            <Grid Row="8" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid Row="0">
+                                    <Label Text="{tr:Translate Text=ForgotPassord}" HorizontalTextAlignment="Center" TextColor="#787878"></Label>
+                                </Grid>
+                                <Grid Row="1" HeightRequest="30">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Column="0">
+                                        <Label Text="{tr:Translate Text=NoWorries}" HorizontalOptions="FillAndExpand" TextColor="#787878" FontSize="12"></Label>
+                                    </Grid>
+                                    <Grid Column="1">
+                                        <Label Text="{tr:Translate Text=Here}" TextColor="#337ab7" FontSize="12">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding ResetCommand}"/>
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </Grid>
+                                    <Grid Column="2">
+                                        <Label Text="{tr:Translate Text=ToReset}" HorizontalOptions="FillAndExpand" TextColor="#787878" FontSize="12"></Label>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Row="2" Padding="0,-10,0,-10" VerticalOptions="EndAndExpand">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                            </Grid.RowDefinitions>
+                            <Grid Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*"/>
+                                    <ColumnDefinition Width="45"/>
+                                    <ColumnDefinition Width="45"/>
+                                    <ColumnDefinition Width="50*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Column="1">
+                                    <forms:CachedImage WidthRequest="35" HeightRequest="35"
+                                                       Source="{Binding KhmerIco, Converter={StaticResource SvgImageSourceConverter}}">
+                                        <forms:CachedImage.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding KhmerCommand}"/>
+                                        </forms:CachedImage.GestureRecognizers>
+                                    </forms:CachedImage>
+                                </Grid>
+                                <Grid Column="2">
+                                    <forms:CachedImage WidthRequest="37" HeightRequest="37"
+                                                       Source="{Binding EnglishIco, Converter={StaticResource SvgImageSourceConverter}}">
+                                        <forms:CachedImage.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding EnglishCommand}"/>
+                                        </forms:CachedImage.GestureRecognizers>
+                                    </forms:CachedImage>
+                                </Grid>
+                            </Grid>
+                            <Grid Row="1">
+                                <Label Text="2017 @ Corarl." FontSize="16" HorizontalTextAlignment="Center" TextColor="#787878"></Label>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <ActivityIndicator Grid.ColumnSpan="3"
+                    Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
+                                   Color="{StaticResource Primary}" IsRunning="{Binding IsBusy}" 
+                                   IsVisible="{Binding IsBusy}">
+                </ActivityIndicator>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,6 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XfTemplate.App">
 	<Application.Resources>
-    
-	</Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#ED1C24</Color>
+            <Style x:Key="StyleGrid" TargetType="Grid">
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="ColumnSpacing" Value="0"/>
+                <Setter Property="RowSpacing" Value="0"/>
+                <Setter Property="Margin" Value="0"/>
+            </Style>
+            <Style x:Key="BgContentPage" TargetType="ContentPage" ApplyToDerivedTypes="true">
+                <Setter Property="BackgroundColor" Value="#f5f5f0"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
