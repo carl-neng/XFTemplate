@@ -5,6 +5,227 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Logo\corarl.png" />
+    <None Remove="Assets\SvgFile\add-plus-account.svg" />
+    <None Remove="Assets\SvgFile\add.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\App.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\AttendanceLog.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Complaint.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\contact_us.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Dashboard.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Feedback.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Leave.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Logout.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Mission.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Notification.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Overtime.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\payslip.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\rate_us.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\schedule.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\Setting.svg" />
+    <None Remove="Assets\SvgFile\AllMenus\TimeRequest.svg" />
+    <None Remove="Assets\SvgFile\AllUses\back.svg" />
+    <None Remove="Assets\SvgFile\AllUses\comment.svg" />
+    <None Remove="Assets\SvgFile\AllUses\complaintTo.svg" />
+    <None Remove="Assets\SvgFile\AllUses\Date.svg" />
+    <None Remove="Assets\SvgFile\AllUses\detail.svg" />
+    <None Remove="Assets\SvgFile\AllUses\domain.svg" />
+    <None Remove="Assets\SvgFile\AllUses\domainReset.svg" />
+    <None Remove="Assets\SvgFile\AllUses\duration.svg" />
+    <None Remove="Assets\SvgFile\AllUses\EmployeeonMission.svg" />
+    <None Remove="Assets\SvgFile\AllUses\password.svg" />
+    <None Remove="Assets\SvgFile\AllUses\person.svg" />
+    <None Remove="Assets\SvgFile\AllUses\subject.svg" />
+    <None Remove="Assets\SvgFile\AllUses\time.svg" />
+    <None Remove="Assets\SvgFile\AllUses\totaldate.svg" />
+    <None Remove="Assets\SvgFile\AllUses\username.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\AttendanceLogWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\ComplaintWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\Employee_list.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\LeaveWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\MissionWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\NotificationWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\OvertimeWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\payslip.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\ScheduleWhite.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\Timeclock.svg" />
+    <None Remove="Assets\SvgFile\AppIcon\TimeRequest.svg" />
+    <None Remove="Assets\SvgFile\attachment.svg" />
+    <None Remove="Assets\SvgFile\bike.svg" />
+    <None Remove="Assets\SvgFile\cambodia.svg" />
+    <None Remove="Assets\SvgFile\cancel.svg" />
+    <None Remove="Assets\SvgFile\caret-arrow-up.svg" />
+    <None Remove="Assets\SvgFile\check.svg" />
+    <None Remove="Assets\SvgFile\checkmark.svg" />
+    <None Remove="Assets\SvgFile\clockinout.svg" />
+    <None Remove="Assets\SvgFile\close-button.svg" />
+    <None Remove="Assets\SvgFile\close.svg" />
+    <None Remove="Assets\SvgFile\current_location.svg" />
+    <None Remove="Assets\SvgFile\Default.svg" />
+    <None Remove="Assets\SvgFile\delete.svg" />
+    <None Remove="Assets\SvgFile\designation.svg" />
+    <None Remove="Assets\SvgFile\designvoid.svg" />
+    <None Remove="Assets\SvgFile\direction.svg" />
+    <None Remove="Assets\SvgFile\dollar.svg" />
+    <None Remove="Assets\SvgFile\downArrow.svg" />
+    <None Remove="Assets\SvgFile\download.svg" />
+    <None Remove="Assets\SvgFile\edit.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\excel.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\image.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\pdf.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\powerpoint.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\txt.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\unknown.svg" />
+    <None Remove="Assets\SvgFile\FileTypeIcon\word.svg" />
+    <None Remove="Assets\SvgFile\FormulaClose.svg" />
+    <None Remove="Assets\SvgFile\forwad-color.svg" />
+    <None Remove="Assets\SvgFile\forwardIcon.svg" />
+    <None Remove="Assets\SvgFile\icon_notification.svg" />
+    <None Remove="Assets\SvgFile\info.svg" />
+    <None Remove="Assets\SvgFile\infoBlue.svg" />
+    <None Remove="Assets\SvgFile\left-arrow.svg" />
+    <None Remove="Assets\SvgFile\mail.svg" />
+    <None Remove="Assets\SvgFile\mapType.svg" />
+    <None Remove="Assets\SvgFile\plus.svg" />
+    <None Remove="Assets\SvgFile\remove.svg" />
+    <None Remove="Assets\SvgFile\RemoveAccountIcon.svg" />
+    <None Remove="Assets\SvgFile\right-arrow.svg" />
+    <None Remove="Assets\SvgFile\Satellise.svg" />
+    <None Remove="Assets\SvgFile\schedualinfo.svg" />
+    <None Remove="Assets\SvgFile\search.svg" />
+    <None Remove="Assets\SvgFile\send.svg" />
+    <None Remove="Assets\SvgFile\sendGray.svg" />
+    <None Remove="Assets\SvgFile\sort-down.svg" />
+    <None Remove="Assets\SvgFile\Terrain.svg" />
+    <None Remove="Assets\SvgFile\tick.svg" />
+    <None Remove="Assets\SvgFile\traffic.svg" />
+    <None Remove="Assets\SvgFile\transit.svg" />
+    <None Remove="Assets\SvgFile\uncheck.svg" />
+    <None Remove="Assets\SvgFile\uncheckgray.svg" />
+    <None Remove="Assets\SvgFile\united-kingdom.svg" />
+    <None Remove="Assets\SvgFile\untick.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Logo\corarl.png" />
+    <EmbeddedResource Include="Assets\SvgFile\add-plus-account.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\add.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\App.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\AttendanceLog.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Complaint.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\contact_us.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Dashboard.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Feedback.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Leave.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Logout.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Mission.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Notification.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Overtime.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\payslip.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\rate_us.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\schedule.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\Setting.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllMenus\TimeRequest.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\back.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\comment.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\complaintTo.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\Date.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\detail.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\domain.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\domainReset.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\duration.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\EmployeeonMission.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\password.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\person.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\subject.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\time.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\totaldate.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AllUses\username.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\AttendanceLogWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\ComplaintWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\Employee_list.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\LeaveWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\MissionWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\NotificationWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\OvertimeWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\payslip.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\ScheduleWhite.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\Timeclock.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\AppIcon\TimeRequest.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\attachment.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\bike.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\cambodia.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\cancel.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\caret-arrow-up.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\check.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\checkmark.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\clockinout.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\close-button.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\close.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\current_location.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\Default.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\delete.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\designation.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\designvoid.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\direction.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\dollar.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\downArrow.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\download.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\edit.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\excel.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\image.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\pdf.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\powerpoint.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\txt.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\unknown.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FileTypeIcon\word.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\FormulaClose.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\forwad-color.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\forwardIcon.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\icon_notification.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\info.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\infoBlue.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\left-arrow.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\mail.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\mapType.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\plus.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\remove.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\RemoveAccountIcon.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\right-arrow.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\Satellise.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\schedualinfo.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\search.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\send.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\sendGray.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\sort-down.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\Terrain.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\tick.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\traffic.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\transit.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\uncheck.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\uncheckgray.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\united-kingdom.svg" />
+    <EmbeddedResource Include="Assets\SvgFile\untick.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.3.840" />
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Login\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Login\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
